@@ -1,0 +1,3 @@
+miVariable = False
+
+print(miVariable)
