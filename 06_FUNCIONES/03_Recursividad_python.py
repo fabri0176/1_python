@@ -10,12 +10,16 @@ print(resultado)
 
 
 def imprimirNumeros(numero):
-    
+
+    if numero <= 0:
+        return
+
     print(numero)
     if numero == 1:
         return
-    
-    imprimirNumeros(numero - 1)    
-        
+
+    imprimirNumeros(numero - 1)
+
 
 imprimirNumeros(5)
+imprimirNumeros(-5)
